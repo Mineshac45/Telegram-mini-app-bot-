@@ -135,8 +135,8 @@
             grid.innerHTML = '';
 
             // Determine the number of stars to show based on the slider value
-            const maxStars = 12; // Maximum prediction for 1 mine
-            const minStars = 5; // Minimum prediction for 10 mines
+            const maxStars = 4; // Maximum prediction for 1 mine
+            const minStars = 2; // Minimum prediction for 10 mines
             const starsToShow = maxStars - Math.floor(((numMines - 1) / 9) * (maxStars - minStars));
 
             // Create empty grid
